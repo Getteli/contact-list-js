@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js --ignore public",
-    "dev": "webpack -w"
+    "dev": "webpack -w",
+    "build": "webpack --mode production"
   },
   "keywords": ["nodejs", "mongodb", "expressjs", "contact", "list", "expressjs"],
   "author": "getteli",
