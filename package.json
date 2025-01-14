@@ -9,7 +9,14 @@
     "dev": "webpack -w",
     "build": "webpack --mode production"
   },
-  "keywords": ["nodejs", "mongodb", "expressjs", "contact", "list", "expressjs"],
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "expressjs",
+    "contact",
+    "list",
+    "expressjs"
+  ],
   "author": "getteli",
   "license": "MIT",
   "dependencies": {
@@ -27,7 +34,8 @@
     "mongodb": "^6.12.0",
     "mongoose": "^8.9.3",
     "regenerator-runtime": "^0.13.9",
-    "style-loader": "^3.3.1"
+    "style-loader": "^3.3.1",
+    "validator": "^13.12.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",

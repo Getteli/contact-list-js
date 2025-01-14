@@ -67,7 +67,7 @@ app.use(routes);
 // agora so vai começar a ouvir a porta depois que a conexao com o banco for estabelecida
 app.on('ready', () => {
     // listen port
-    app.listen(80, () => {
-        console.log('Server running on port 80');
+    app.listen(3000, () => {
+        console.log('Server running on port 3000, link: http://localhost:3000');
     });
 })
