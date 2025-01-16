@@ -2,6 +2,10 @@ exports.sendCsrfToken = (req, res, next) => {
     // envia o token
     res.locals.csrfToken = req.csrfToken();
 
+    // envia a sessao
+    
+    res.locals.user = req.session?.user ?? null;
+
     // envia o errors
     res.locals.errors = req.flash('errors');
     // envia o sucesses

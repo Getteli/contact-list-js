@@ -14,6 +14,8 @@ const loginController = require('./src/controllers/loginController');
     route.post('/login', loginController.login);
 
     route.post('/register', loginController.register);
+
+    route.post('/logout', loginController.logout);
 //#endregion
 
 
